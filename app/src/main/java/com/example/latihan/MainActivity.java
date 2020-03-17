@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         vHasil = findViewById(R.id.v_hasil);
         btnHitung.setOnClickListener(this);
 
-        if (savedInstanceState != null) {
+        if (savedInstanceState != null) 
+        {
             String result = savedInstanceState.getString(STATE_HASIL);
             vHasil.setText(result);
         }
